@@ -19,7 +19,6 @@ const Head: HeadFC = () => {
       <meta property="twitter:url" content={siteMetadata.siteUrl} />
       <meta property="twitter:description" content={siteMetadata.description} />
       <link rel="icon" type="image/png" href={siteMetadata.faviconUrl} />
-      <link rel="stylesheet" href="https://unpkg.com/latex.css/style.min.css" />
       <title>{siteMetadata.title}</title>
       <body />
     </>
