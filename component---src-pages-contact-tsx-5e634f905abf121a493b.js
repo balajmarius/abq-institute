@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkabq_institute=self.webpackChunkabq_institute||[]).push([[650],{6865:function(e,t,n){n.r(t),n.d(t,{Head:function(){return i.F}});var u=n(7294),a=n(714),i=n(4951);t.default=()=>u.createElement(a.Z,null)}}]);
+//# sourceMappingURL=component---src-pages-contact-tsx-5e634f905abf121a493b.js.map
