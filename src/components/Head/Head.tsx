@@ -11,8 +11,8 @@ const Head: HeadFC = () => {
       <html lang="en" />
       <meta name="description" content={siteMetadata.description} />
       <meta property="og:title" content={siteMetadata.title} />
-      <meta property="og:url" content={siteMetadata.siteUrl} />
       <meta property="og:description" content={siteMetadata.description} />
+      <meta property="og:url" content={siteMetadata.siteUrl} />
       <meta property="og:image" content={siteMetadata.ogImageUrl} />
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:title" content={siteMetadata.title} />
