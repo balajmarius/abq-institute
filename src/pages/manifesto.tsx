@@ -104,7 +104,6 @@ export default () => {
           <FormattedMessage id="MANIFESTO_DEVELOP_FRAMEWORKS_FOR_ENSURING_PRIVACY" />
         </li>
       </ul>
-
       <hr className="mt-12" />
 
       <h2 className="font-bold">
