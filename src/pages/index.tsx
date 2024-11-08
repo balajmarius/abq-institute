@@ -2,6 +2,7 @@ import * as React from "react";
 import { FormattedMessage } from "react-intl";
 
 import Layout from "@/layouts/Layout";
+import { Link } from "gatsby";
 
 export default () => {
   const renderers = {
@@ -47,16 +48,26 @@ export default () => {
         <FormattedMessage id="FOCUS_WE_FOCUS_ON_FINDING" values={renderers} />
       </p>
 
+      <hr className="mt-12" />
+
+      <h3 className="italic">
+        <FormattedMessage id="EVENTS_EVENTS_AND_COURSES" />
+      </h3>
+      <h2 className="font-bold mt-2">
+        <FormattedMessage id="EVENTS_WHATS_NEXT" />
+      </h2>
+
       <nav>
         <ol>
           <li>
-            <FormattedMessage id="FOCUS_AI_BLOCKCHAIN_QUANTUM" values={renderers} />
+            <a href="https://bit.ly/Future-of-AI-event" target="_blank" rel="noopener noreferrer">
+              <FormattedMessage id="EVENTS_EVENTS" />
+            </a>
           </li>
           <li>
-            <FormattedMessage id="FOCUS_ECONOMIC_TRANFORMATION" values={renderers} />
-          </li>
-          <li>
-            <FormattedMessage id="FOCUS_ETHICAL_AND_LONG_TERM_SOCIETAL" values={renderers} />
+            <a href="https://bit.ly/3C7jEWp" target="_blank" rel="noopener noreferrer">
+              <FormattedMessage id="EVENTS_COURSES" />
+            </a>
           </li>
         </ol>
       </nav>
