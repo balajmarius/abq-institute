@@ -2,7 +2,6 @@ import * as React from "react";
 import { FormattedMessage } from "react-intl";
 
 import Layout from "@/layouts/Layout";
-import { Link } from "gatsby";
 
 export default () => {
   const renderers = {
@@ -47,6 +46,20 @@ export default () => {
       <p>
         <FormattedMessage id="FOCUS_WE_FOCUS_ON_FINDING" values={renderers} />
       </p>
+
+      <nav>
+        <ol>
+          <li>
+            <FormattedMessage id="FOCUS_AI_BLOCKCHAIN_QUANTUM" values={renderers} />
+          </li>
+          <li>
+            <FormattedMessage id="FOCUS_ECONOMIC_TRANFORMATION" values={renderers} />
+          </li>
+          <li>
+            <FormattedMessage id="FOCUS_ETHICAL_AND_LONG_TERM_SOCIETAL" values={renderers} />
+          </li>
+        </ol>
+      </nav>
 
       <hr className="mt-12" />
 
