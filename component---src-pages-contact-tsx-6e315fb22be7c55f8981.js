@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkabq_institute=self.webpackChunkabq_institute||[]).push([[650],{6865:function(e,t,l){l.r(t),l.d(t,{Head:function(){return n.F}});var s=l(7294),a=l(714),n=l(4951);t.default=()=>s.createElement(a.Z,null,s.createElement("iframe",{className:"w-full min-h-xl",src:"https://forms.office.com/Pages/ResponsePage.aspx?id=eYlwkP6VkkSKGZi3FcU5f8PPEhcRy19LhpD7_mvKlXhUMlVMN0xERktXWDJHNldCTVdMNUJONElDUC4u&embed=true"}))}}]);
+//# sourceMappingURL=component---src-pages-contact-tsx-6e315fb22be7c55f8981.js.map
