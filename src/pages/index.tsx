@@ -86,6 +86,13 @@ export default () => {
       </nav>
 
       <hr className="mt-12" />
+
+      <iframe
+        className="w-full min-h-xl mt-12"
+        src="https://forms.office.com/Pages/ResponsePage.aspx?id=eYlwkP6VkkSKGZi3FcU5f8PPEhcRy19LhpD7_mvKlXhUMlVMN0xERktXWDJHNldCTVdMNUJONElDUC4u&embed=true"
+      />
+
+      <hr className="mt-12" />
     </Layout>
   );
 };
